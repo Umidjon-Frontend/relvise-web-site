@@ -148,6 +148,8 @@ body {
 }
 .page__getintouch {
 }
+.page__contact {
+}
 /* ---HEADER-Block----------------------------------------------------------------------------------------------- */
 .header-block {
     text-align: center;
@@ -836,6 +838,58 @@ body {
     }
 }
 /* ---ITEM getintouch END ----------------------------------------------------------------------------------------------- */
+
+/* ---Contact ----------------------------------------------------------------------------------------------- */
+
+.contact {
+    background-color: #fff;
+    padding: 42px 0;
+}
+.contact__container {
+}
+.contact__content {
+    padding: 0px 0px 20px 0px;
+}
+.contact__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(32 / 24 * 100%);
+    letter-spacing: 0.1px;
+}
+.contact__title:not(:last-child){
+    margin: 0px 0px 10px 0px;
+}
+.contact__text {
+    letter-spacing: 0.2px;
+    line-height: calc(20 / 14 * 100%);
+    color: #737373;
+}
+.contact__button {
+    display: flex;
+    background-color: #ff7b47;
+    border-radius: 5px;
+    min-height: 58px;
+    padding: 5px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s ease 0s;
+}
+.contact__button:hover{
+    background-color: #aa5330;
+}
+@media (min-width: 767px) {
+    .contact__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contact__content {
+        padding: 0px 20px 0px 0px;
+    }
+}
+/* ---Contact END ----------------------------------------------------------------------------------------------- */
 /* ---FOOTER----------------------------------------------------------------------------------------------- */
 .footer {
 }
