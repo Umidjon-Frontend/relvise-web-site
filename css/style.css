@@ -141,6 +141,8 @@ body {
 }
 .page__whoweare {
 }
+.page__clients {
+}
 /* ---HEADER-Block----------------------------------------------------------------------------------------------- */
 .header-block {
     text-align: center;
@@ -601,6 +603,34 @@ body {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+/* ---CLIENTS----------------------------------------------------------------------------------------------- */
+
+.clients {
+    padding: 50px 0px;
+}
+.clients__container {
+}
+.clients__items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clients__item {
+    padding: 8px 15px;
+    flex: 0 1 16.66667%;
+    text-align: center;
+    min-width: 140px;
+    margin: 5px 0px;
+}
+.clients__item img{
+    max-width: 100%;
+}
+@media (max-width: 768px) {
+    .clients__item {
+        flex: 0 1 33.33333%;
+    }
 }
 /* ---FOOTER----------------------------------------------------------------------------------------------- */
 .footer {
